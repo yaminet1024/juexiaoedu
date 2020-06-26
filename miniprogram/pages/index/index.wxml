@@ -1,0 +1,31 @@
+<home wx:if="{{PageCur=='home'}}"></home>
+<dashboard wx:if="{{PageCur=='dashboard'}}"></dashboard>
+<studentInfo wx:if="{{PageCur=='studentInfo'}}"></studentInfo>
+<me wx:if="{{PageCur=='me'}}"></me>
+<view class="cu-bar tabbar bg-white shadow foot">
+	<view class="action" bindtap="NavChange" data-cur="home">
+		<view class='cuIcon-cu-image'>
+			<image src="/images/tabbar/basics{{PageCur=='home'?'_cur':''}}.png"></image>
+		</view>
+		<view class="{{PageCur=='home'?'text-green':'text-gray'}}">首页</view>
+	</view>
+	<view class="action" bindtap="NavChange" data-cur="dashboard">
+		<view class='cuIcon-cu-image'>
+			<image src="/images/tabbar/component{{PageCur=='dashboard'?'_cur':''}}.png"></image>
+		</view>
+		<view class="{{PageCur=='dashboard'?'text-green':'text-gray'}}">工作台</view>
+	</view>
+	<view class="action" bindtap="NavChange" data-cur="studentInfo">
+		<view class='cuIcon-cu-image'>
+			<image src="/images/tabbar/plugin{{PageCur=='studentInfo'?'_cur':''}}.png"></image>
+		</view>
+		<view class="{{PageCur=='studentInfo'?'text-green':'text-gray'}}">生源</view>
+	</view>
+	<view class="action" bindtap="NavChange" data-cur="me">
+		<view class='cuIcon-cu-image'>
+			<image src="/images/tabbar/about{{PageCur=='me'?'_cur':''}}.png"></image>
+		</view>
+		<view class="{{PageCur=='me'?'text-green':'text-gray'}}">个人中心</view>
+	</view>
+</view>
+

@@ -1,0 +1,119 @@
+<cu-custom bgColor="bg-gradual-green" isBack="{{false}}">
+	<view slot="content">名师优选</view>
+</cu-custom>
+<swiper class="screen-swiper {{DotStyle?'square-dot':'round-dot'}}" indicator-dots="true" circular="true" autoplay="true" interval="5000" duration="500">
+	<swiper-item wx:for="{{swiperList}}" wx:key>
+		<image src="{{item.url}}" mode="aspectFill" wx:if="{{item.type=='image'}}"></image>
+		<video src="{{item.url}}" autoplay loop muted show-play-btn="{{false}}" controls="{{false}}" objectFit="cover" wx:if="{{item.type=='video'}}"></video>
+	</swiper-item>
+</swiper>
+
+<view class="cu-list grid col-4">
+
+	<view class="cu-item">
+		<text class="cuIcon-cascades lg text-gray"></text>
+		<text>生源</text>
+	</view>
+
+	<view class="cu-item">
+		<text class="cuIcon-cascades lg text-gray"></text>
+		<text>生源</text>
+	</view>
+
+	<view class="cu-item">
+		<text class="cuIcon-cascades lg text-gray"></text>
+		<text>生源</text>
+	</view>
+
+	<view class="cu-item">
+		<text class="cuIcon-cascades lg text-gray"></text>
+		<text>生源</text>
+	</view>
+</view>
+
+<view class="cu-bar bg-white solid-bottom margin-top">
+	<view class="action">
+		<text class="cuIcon-title text-green "></text> 查看生源
+	</view>
+</view>
+
+<view class="cu-list">
+	<view class="cu-card article no-card">
+		<view class="cu-item shadow">
+			<view class="title">
+				<view class="text-cut">初二数学</view>
+			</view>
+			<view class="content">
+				<view class="desc">
+					<view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+					<!-- 预留一下以后的需求可能会增加 -->
+					<!-- <view>
+          <view class="cu-tag bg-red light sm round">正义天使</view>
+          <view class="cu-tag bg-green light sm round">史诗</view>
+        </view> -->
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="cu-card article no-card">
+		<view class="cu-item shadow">
+			<view class="title">
+				<view class="text-cut">初二数学</view>
+			</view>
+			<view class="content">
+				<view class="desc">
+					<view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+					<!-- 预留一下以后的需求可能会增加 -->
+					<!-- <view>
+          <view class="cu-tag bg-red light sm round">正义天使</view>
+          <view class="cu-tag bg-green light sm round">史诗</view>
+        </view> -->
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="cu-card article no-card">
+		<view class="cu-item shadow">
+			<view class="title">
+				<view class="text-cut">初二数学</view>
+			</view>
+			<view class="content">
+				<view class="desc">
+					<view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+					<!-- 预留一下以后的需求可能会增加 -->
+					<!-- <view>
+          <view class="cu-tag bg-red light sm round">正义天使</view>
+          <view class="cu-tag bg-green light sm round">史诗</view>
+        </view> -->
+				</view>
+			</view>
+		</view>
+	</view>
+
+	<view class="cu-card article no-card">
+		<view class="cu-item shadow">
+			<view class="title">
+				<view class="text-cut">初二数学</view>
+			</view>
+			<view class="content">
+				<view class="desc">
+					<view class="text-content"> 折磨生出苦难，苦难又会加剧折磨，凡间这无穷的循环，将有我来终结！真正的恩典因不完整而美丽，因情感而真诚，因脆弱而自由！</view>
+					<!-- 预留一下以后的需求可能会增加 -->
+					<!-- <view>
+          <view class="cu-tag bg-red light sm round">正义天使</view>
+          <view class="cu-tag bg-green light sm round">史诗</view>
+        </view> -->
+				</view>
+			</view>
+		</view>
+	</view>
+</view>
+
+<view class=" padding flex flex-wrap justify-between align-center ">
+  <button class="cu-btn round bg-green shadow">查看更多</button>
+</view>
+
+
+<view class='cu-tabbar-height'></view>

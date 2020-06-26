@@ -1,0 +1,22 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/home/home",
+    "pages/dashboard/dashboard",
+    "pages/studentInfo/studentInfo",
+    "pages/me/me"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "觉晓名师优选",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "custom"
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2",
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  }
+}

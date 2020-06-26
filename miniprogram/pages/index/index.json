@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "home": "/pages/home/home",
+    "dashboard": "/pages/dashboard/dashboard",
+    "studentInfo": "/pages/studentInfo/studentInfo",
+    "me": "/pages/me/me"
+  }
+}
